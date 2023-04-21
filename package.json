@@ -1,0 +1,24 @@
+{
+  "name": "vdt-season1-marvel-api",
+  "version": "1.0.0",
+  "description": "Automação primeira temporada Viver de Teste da QA Academy",
+  "main": "index.js",
+  "scripts": {
+    "back2thepast": "sh ./back2thepast.sh",
+    "test": "npm run back2thepast && npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jundurian/vdt-season1-marvel-api.git"
+  },
+  "author": "Jundurian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jundurian/vdt-season1-marvel-api/issues"
+  },
+  "homepage": "https://github.com/jundurian/vdt-season1-marvel-api#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.2.1",
+    "cypress": "^9.7.0"
+  }
+}
